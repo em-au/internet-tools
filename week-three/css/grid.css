@@ -14,6 +14,7 @@
   background-color: #8ca1a5;
   color: white;
   padding: 0px;
+  text-align: left;
 }
 
 .item1-4 {
@@ -38,10 +39,6 @@
   grid-row: 2;
   overflow-y: auto;
   padding: 10px;
-}
-
-.item5-6 p {
-  text-align: left;
 }
 
 img {
