@@ -8,6 +8,7 @@
   gap: 0px;
   /* Space between rows and columns */
   height: 100%;
+  margin-bottom: 50px;
 }
 
 .grid-item {
