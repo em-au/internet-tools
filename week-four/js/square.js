@@ -3,5 +3,3 @@ function square(a) {
     return a * b;
   };
 }
-let squareIt = square(5);
-alert(`The square of 5 is ${squareIt(5)}`);
