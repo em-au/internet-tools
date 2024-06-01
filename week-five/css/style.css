@@ -1,10 +1,5 @@
-@media (max-width: 767px) {
-  .discussion-menu {
-    justify-content: center !important;
-  }
-}
 .picture-size {
-  height: 150px;
-  width: 150px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
 }
