@@ -1,0 +1,16 @@
+.navbar {
+  background-color: #6c6c6c;
+}
+
+.d-flex.header-links {
+  gap: 20px;
+}
+
+.btn-group {
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: primary;
+}
