@@ -1,3 +1,67 @@
-body {
-  color: red;
+a {
+  text-decoration: none;
+  color: rgb(144, 1, 1);
+}
+
+.grid-container {
+  display: grid;
+  /* block-level */
+  grid-template-columns: 1fr 5fr;
+  /* Two columns, one is 1/6, one is 5/6? */
+  grid-template-rows: 200px 200px;
+  /* Two rows with same heights */
+  gap: 30px;
+  /* Space between rows and columns */
+  height: 100%;
+  margin: 100px;
+}
+
+.grid-item {
+  padding: 0px;
+  text-align: left;
+}
+
+.item1 {
+  grid-column: 1;
+  grid-row: 1;
+  text-align: right;
+  color: blue;
+}
+
+.item2 {
+  grid-column: 2 / 7;
+  grid-row: 1;
+}
+
+.item3 {
+  grid-column: 1;
+  grid-row: 2;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.item4 {
+  grid-column: 2 / 7;
+  grid-row: 2;
+  background-color: #332703;
+}
+
+input {
+  width: 100%;
+  height: 100%;
+  font-size: 2rem;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
